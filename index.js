@@ -1,21 +1,20 @@
+var firstName, lastName;
+var user = {
+//  constructor(firstName,lastName,dateOfBirth,monthOfBirth,yearOfBirth) {
+    constructor(id) {
+    this.firstName = firstName;
+    this.lastName  = lastName;
+    this.dateOfBirth   = dateOfBirth;
+    this.monthOfBirth  = monthOfBirth;
+    this.yearOfBirth   = yearOfBirth;  
+  }
+}
+firstName = 'Oleg';
+lastName  = 'Dubenko';
 
-var a = 1;
-/*if ( a == true || a == false)
-   {a=undefined}
-else {};*/
-if (typeof a == "boolean"){a = undefined}
-else{};
-console.log ( typeof a);
+dateOfBirth  = 6;
+monthOfBirth = 11;
+yearOfBirth  = 1963;
 
 
-/* var firstName = "Oleg",
-    lastName = "Dubenko",
-    space = "  ";
-    
-
-console.log (firstName+space+lastName);
-
-var fio = [ "Dubenko","Oleg" ];
-console.log ( fio[0]+space+fio[1])
-
-// document.write (a); */
+console.log('user name '+user);
